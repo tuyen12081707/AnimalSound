@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_farm"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fr_mammal"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/iv_card"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_background_card"
+            android:src="@drawable/bg_card" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@drawable/ic_lion" />
+
+            <TextView
+                android:id="@+id/tv_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:text="Mammal"
+                android:textColor="@color/purple_700"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fr_sea"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/iv_card_sea"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_background_card"
+            android:src="@drawable/bg_card" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_whale" />
+
+            <TextView
+                android:id="@+id/tv_card_sea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:text="Sea"
+                android:textColor="@color/blue_500"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fr_bird"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/iv_card_bird"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_background_card"
+            android:src="@drawable/bg_card" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_owl" />
+
+            <TextView
+                android:id="@+id/tv_card_bird"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:text="Bird"
+                android:textColor="@color/colorGreen"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Animal Sound"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="App Version: 1.0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+  />
+
+</LinearLayout>
